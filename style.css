@@ -1,0 +1,76 @@
+@font-face {
+    font-family: inter;
+    src: url(fonts/static/Inter-Regular.ttf);
+} 
+
+body{
+    margin: 0;
+}
+
+*{
+    margin: 9px;
+}
+
+.input_email {
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    outline: none;
+    caret-color: #FF0000;
+}
+
+.input_email:focus{
+    background-color: red;
+}
+
+.input_email::placeholder {
+    color: #9E9E9E;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input_password { 
+    width: 467px;
+    height: 45px;
+    border-radius: 15px;
+    border: 1px solid #FF0000;
+    background-color: #610000;
+}
+
+.input_password::placeholder {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F07272;
+}
+
+.input_number {
+    width: 541px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #A8AB00;
+}
+
+.input_number::placeholder {
+    font-family: inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: #A8AB00;
+}
+
+.input_text {
+    width: 315px;
+    height: 45px;
+    border-radius: 30px;
+    border: 2px solid #F9FE03;
+    background-color: #292828;
+}
+
+.input_text::placeholder {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #F9FE03;
+}
